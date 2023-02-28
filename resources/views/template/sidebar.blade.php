@@ -35,11 +35,40 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
+            <a href="/PL" class="nav-link active">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Profil Lulusan               
+              </p>
+            </a>
             <a href="/" class="nav-link active">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Profil Lulusan
-                <span class="right badge badge-danger">New</span>
+                Mata Kuliah
+              </p>
+            </a>
+            <a href="/" class="nav-link active">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                CPL
+              </p>
+            </a>
+            <a href="/" class="nav-link active">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                CPMK
+              </p>
+            </a>
+            <a href="/" class="nav-link active">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Bahan Kajian
+              </p>
+            </a>
+            <a href="/" class="nav-link active">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Bobot Penelitian
               </p>
             </a>
           </li>

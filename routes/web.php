@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', [cybersiController::class, 'index']);
+Route::get('/', function () {
+    return view('home');
+});
+Route::get('/PL', [cybersiController::class, 'index']);
 Route::resource('cybersi', cybersiController::class);

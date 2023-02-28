@@ -15,7 +15,7 @@ class cybersiController extends Controller
     public function index()
     {
         $item = cybersi::get();
-        return view('welcome',[
+        return view('PL',[
             'var1' => $item
         ]);
     }
