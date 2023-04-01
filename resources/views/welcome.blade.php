@@ -65,7 +65,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 
                   </tr>
                   @foreach ($var1 as $item)
-                  <tr>
+                  <tr  style="text-align: justify">
                       <td>{{ $item->kode}}</td>
                       <td>{{ $item->deskripsiPL}}</td>
                       <td>{{ $item->deskripsiProdi}}</td>
