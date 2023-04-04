@@ -23,6 +23,7 @@ class CreateUsersTable extends Migration
             $table->string('foto')->default(asset('/FileMedia/icon_profile.png'));
             $table->timestamps();
             $table->integer('level')->default('2');
+            $table->string('remember_token')->nullable();
         });
     }
 
